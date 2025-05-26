@@ -1,12 +1,11 @@
 import React from "react";
-
+import banner from "../assets/banner.jpg";
 function Banner() {
   return (
     <div
-      className="h-[250px] sm:h-[550px] w-[250px] sm:w-[1200px] bg-contain bg-no-repeat bg-center mx-auto mt-6 flex items-end"
+      className="h-[250px] sm:h-[550px] w-[250px] sm:w-[980px] bg-contain bg-no-repeat bg-center mx-auto mt-6 flex items-end"
       style={{
-        backgroundImage:
-          "url(https://ww2.kqed.org/app/uploads/sites/12/2015/04/the-avengers-800x450.jpg)",
+        backgroundImage: `url(${banner})`,
       }}
     >
       <div className="mx-auto bg-gray-900/60 w-[976px]">
