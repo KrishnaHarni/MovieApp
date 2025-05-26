@@ -1,12 +1,38 @@
-# React + Vite
+# 🎬 Movie App 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive movie browser and watchlist app built using **React.js**, **Tailwind CSS**, **Axios**, **React Router**, and **TMDB API**. Users can explore popular movies, add favorites to a personal watchlist, search by title in watchlist, view genres and filter by genre in watchlist, and enjoy smooth pagination.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📃 **Popular Movies Listing** on the homepage
+- 📱💻🖥️ **Responsive design for mobile, tablet, and desktop**
+- 🔍 **Search Functionality** to find movies by title
+- 🎭 **Rating Display** on each movie card
+- ❤️ **Add/Remove to Watchlist**
+- 🔢 **Sort movies by rating** in ascending and descending order
+- 🎯 **Filter Watchlist by Genre**
+- 🔄 **Pagination** for browsing through pages
+- ⚛️ Built using **React Hooks**
+- 🖌️ Styled with **Tailwind CSS**
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![image](https://github.com/user-attachments/assets/e3ab5b43-4488-49c9-bb0a-0a9f2e0855e8)
+![image](https://github.com/user-attachments/assets/b1c0e58a-4aed-472b-90bb-f52c0ba01435)
+![image](https://github.com/user-attachments/assets/7cb50392-26b2-4d39-a7dc-f2d165bbb5ee)
+![image](https://github.com/user-attachments/assets/f0111e41-27f8-4389-8c0d-7ab576dce944)
+
+## 🔧 Technologies Used
+
+<img width="48" height="48" src="https://img.icons8.com/color/48/react-native.png" alt="react-native"/>
+<img width="48" height="48" src="https://img.icons8.com/fluency/48/tailwind_css.png" alt="tailwind_css"/>
+<svg viewBox="0 -58 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M78.0659341,92.5875806 C90.8837956,92.5875806 101.274726,82.1966508 101.274726,69.3787894 C101.274726,56.5609279 90.8837956,46.1699982 78.0659341,46.1699982 C65.2480726,46.1699982 54.8571429,56.5609279 54.8571429,69.3787894 C54.8571429,82.1966508 65.2480726,92.5875806 78.0659341,92.5875806 Z M23.2087913,139.005163 C36.0266526,139.005163 46.4175825,128.614233 46.4175825,115.796372 C46.4175825,102.97851 36.0266526,92.5875806 23.2087913,92.5875806 C10.3909298,92.5875806 0,102.97851 0,115.796372 C0,128.614233 10.3909298,139.005163 23.2087913,139.005163 Z M232.791209,139.005163 C245.60907,139.005163 256,128.614233 256,115.796372 C256,102.97851 245.60907,92.5875806 232.791209,92.5875806 C219.973347,92.5875806 209.582418,102.97851 209.582418,115.796372 C209.582418,128.614233 219.973347,139.005163 232.791209,139.005163 Z" fill="#000000"> </path> <path d="M156.565464,70.3568084 C155.823426,62.6028163 155.445577,56.1490255 149.505494,51.6131676 C141.982638,45.8687002 133.461166,49.5960243 122.964463,45.8072968 C112.650326,43.3121427 105,34.1545727 105,23.2394367 C105,10.4046502 115.577888,0 128.626373,0 C138.29063,0 146.599638,5.70747659 150.259573,13.8825477 C155.861013,24.5221258 152.220489,35.3500418 159.258242,40.8041273 C167.591489,47.2621895 178.826167,42.5329154 191.362109,48.6517412 C195.390112,50.5026944 198.799584,53.4384578 201.202056,57.0769224 C203.604528,60.7153869 205,65.0565524 205,69.7183101 C205,80.633446 197.349674,89.7910161 187.035538,92.2861702 C176.538834,96.0748977 168.017363,92.3475736 160.494506,98.092041 C152.03503,104.551712 156.563892,115.358642 149.669352,126.774447 C145.756163,134.291567 137.802119,139.43662 128.626373,139.43662 C115.577888,139.43662 105,129.03197 105,116.197184 C105,106.873668 110.581887,98.832521 118.637891,95.1306146 C131.173833,89.0117889 142.408511,93.7410629 150.741758,87.2830007 C155.549106,83.5574243 156.565464,77.8102648 156.565464,70.3568084 Z" fill="#D0021B"> </path> </g> </g></svg>
+
+- **Axios**
+- **TMDB API**
+
+## 🌐 API Used
+
+- [TMDB (The Movie Database) API](https://www.themoviedb.org/documentation/api)
+
+To get started, sign up and generate an API key from TMDB.
