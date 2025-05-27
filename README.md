@@ -1,6 +1,8 @@
 # 🎬 Movie App 
 
-A sleek and responsive movie browser and watchlist app built using **React.js**, **Tailwind CSS**, **Axios**, **React Router**, and **TMDB API**. Users can explore popular movies, add favorites to a personal watchlist, search by title in watchlist, view genres and filter by genre in watchlist, and enjoy smooth pagination.
+A sleek and responsive movie browser and watchlist app built using **React.js**, **Tailwind CSS**, **Axios**, **React Router**, and **TMDB API**. Users can explore popular movies, add favorites to a personal watchlist, search by title in watchlist, view genres and filter by genre in watchlist, and enjoy smooth pagination. <br/>
+
+## 🔗 [Live Demo](https://moviewatchlistapplication.netlify.app/)
 
 ## 🚀 Features
 
