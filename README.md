@@ -36,4 +36,4 @@ A sleek and responsive movie browser and watchlist app built using **React.js**,
 
 - [TMDB (The Movie Database) API](https://developer.themoviedb.org/docs/getting-started)
 
-To get started, sign up and generate an API key from TMDB.
+  To get started, sign up and generate an API key from TMDB.
